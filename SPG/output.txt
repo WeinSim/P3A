@@ -1,0 +1,102 @@
+
+--- Teilversuch 2 ---
+Flintglas:
+lambda = 578.966 nm: n = 1.62179, ∆n = 0.00012
+lambda = 576.960 nm: n = 1.62213, ∆n = 0.00012
+lambda = 546.074 nm: n = 1.62340, ∆n = 0.00012
+lambda = 491.604 nm: n = 1.63244, ∆n = 0.00012
+lambda = 435.405 nm: n = 1.64338, ∆n = 0.00012
+lambda = 404.656 nm: n = 1.65244, ∆n = 0.00012
+Methanol:
+lambda = 578.966 nm: n = 1.33155, ∆n = 0.00015
+lambda = 576.960 nm: n = 1.33155, ∆n = 0.00015
+lambda = 546.074 nm: n = 1.33317, ∆n = 0.00015
+lambda = 491.604 nm: n = 1.33545, ∆n = 0.00015
+lambda = 435.405 nm: n = 1.33837, ∆n = 0.00015
+lambda = 404.656 nm: n = 1.34075, ∆n = 0.00015
+
+--- Teilversuch 3 ---
+lambda_0 = 630.8566648971882 nm
+∆lambda_0 = 0.31730808254303444 nm
+lambda_1 = 592.7512696914608 nm
+∆lambda_1 = 0.32040142570315805 nm
+lambda_2 = 590.4850633295264 nm
+∆lambda_2 = 0.32057841573959317 nm
+lambda_3 = 552.001094461453 nm
+∆lambda_3 = 0.3234666789175586 nm
+lambda_4 = 496.78186171660883 nm
+∆lambda_4 = 0.32723214039567616 nm
+lambda_5 = 440.95737679664256 nm
+∆lambda_5 = 0.33059891991696877 nm
+lambda_6 = 409.31562619599543 nm
+∆lambda_6 = 0.33231597155794385 nm
+
+--- Teilversuch 4 ---
+Flintglas:
+Auflösungsvermögen bei 576.96 nm:
+R = 1230.3758017276614
+∆R = 2.064388929073257
+Auflösungsvermögen bei 435.405 nm:
+R = 8785.868502795847
+∆R = 14.74139010536216
+Methanol:
+Auflösungsvermögen bei 576.96 nm:
+R = 3603.287550737016
+∆R = 2.633982127731737
+Auflösungsvermögen bei 435.405 nm:
+R = 5285.374591931243
+∆R = 3.863577918078394
+
+--- Teilversuch 5 ---
+50er-Gitter Gelb:
+1. Ordnung:
+d phi / d lambda = 50023.331340115175
+∆ d phi / d lambda = 0.31436502729622656
+2. Ordnung:
+d phi / d lambda = 100127.49182814226
+∆ d phi / d lambda = 1.0403009791172568
+3. Ordnung:
+d phi / d lambda = 150535.3022072329
+∆ d phi / d lambda = 2.618216062592771
+
+50er-Gitter Blau:
+1. Ordnung:
+d phi / d lambda = 50012.38239718211
+∆ d phi / d lambda = 0.22895382835976527
+2. Ordnung:
+d phi / d lambda = 100099.7699881855
+∆ d phi / d lambda = 0.919956842619716
+3. Ordnung:
+d phi / d lambda = 150339.27764219866
+∆ d phi / d lambda = 2.0810188118387623
+
+10er-Gitter Gelb:
+1. Ordnung:
+d phi / d lambda = 10000.186581070613
+∆ d phi / d lambda = 0.012565218249240024
+2. Ordnung:
+d phi / d lambda = 20001.28707761851
+∆ d phi / d lambda = 0.04667436507493995
+
+10er-Gitter Blau:
+1. Ordnung:
+d phi / d lambda = 10000.09519369883
+∆ d phi / d lambda = 0.00897501919242443
+2. Ordnung:
+d phi / d lambda = 20000.73639289842
+∆ d phi / d lambda = 0.03530334840561586
+
+10er-Gitter Auflösungsvermögen:
+A = 29.5
+∆A = 0.2886751345948129
+A = 29.333333333333332
+∆A = 0.5773502691896258
+
+50er-Gitter Auflösungsvermögen:
+A = 37.5
+∆A = 1.4433756729740645
+A = 40.0
+∆A = 2.886751345948129
+A = 42.5
+∆A = 4.330127018922194
+

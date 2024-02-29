@@ -19,6 +19,31 @@ def tv1():
     xsKlein = [1.2245, 1.1705, 1.1170, 1.0635, 1.0100]
     deltaXS = 0.0005
 
+    print("Kleiner Max:")
+    print("g\t∆g\tb\t∆b\tf\t∆f")
+    for i in range(len(xb)):
+        varXG = Var(xg, deltaXG, "x_g")
+        varXB = Var(xb[i], deltaXB, "x_b")
+        varXSK = Var(xsKlein[i], deltaXS, "x_sK")
+        params = [varXG, varXB, varXSK]
+
+        exprG = Sub(varXSK, varXG)
+        exprB = Sub(varXB, varXSK)
+        exprF = Pow(Add(Pow(exprG, -1), Pow(exprB, -1)), -1)
+
+        valG = exprG.eval()
+        dg = gaussian(exprG, params)
+
+        valB = exprB.eval()
+        db = gaussian(exprB, params)
+
+        valF = exprF.eval()
+        df = gaussian(exprF, params)
+
+        print("%.4f\t%.5f\t%.4f\t%.5f\t%.4f\t%.5f" % (valG, dg, valB, db, valF, df))
+
+    print()
+
     g = []
     dg = []
     b = []
@@ -27,7 +52,9 @@ def tv1():
     da = []
     e = []
     de = []
-    print("g\tb\tf")
+
+    print("Großer Max:")
+    print("g\t∆g\tb\t∆b\tf\t∆f")
     fsum = 0
     for i in range(len(xb)):
         varXG = Var(xg, deltaXG, "x_g")
@@ -40,6 +67,7 @@ def tv1():
         exprB = Sub(varXB, varXS)
         exprA = Sub(varXB, varXG)
         exprE = Sub(varXSK, varXS)
+        exprF = Pow(Add(Pow(exprG, -1), Pow(exprB, -1)), -1)
 
         valG = exprG.eval()
         g.append(valG)
@@ -57,9 +85,12 @@ def tv1():
         e.append(valE)
         de.append(gaussian(exprE, params))
 
+        valF = exprF.eval()
+        df = gaussian(exprF, params)
+
         f = 1/(1/valG + 1/valB)
         fsum += f
-        print("%.4f\t%.4f\t%.4f" % (valG, valB, f))
+        print("%.4f\t%.5f\t%.4f\t%.5f\t%.4f\t%.5f" % (valG, dg[i], valB, db[i], valF, df))
 
     print()
     favg = fsum/5

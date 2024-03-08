@@ -1,0 +1,54 @@
+--- Teilversuch 1 ---
+Transmittiert:
+m  = 13.493939393939396
+∆m = 0.7090909090907974
+t  = 8.733333333333306
+∆t = 3.190909090908588
+R  = 21.250298258172275
+∆R = 1.1166785969933817
+Abweichung vom theoretischen Wert: 8.157493376069663 * Unsicherheit
+lambda  = 1.1114355814133428
+∆lambda = 0.05840465440168004
+Abweichung vom theoretischen Wert: 8.157493376069663 * Unsicherheit
+
+Reflektiert:
+m  = 10.462121212121213
+∆m = 0.2760942760938187
+t  = 17.333333333333307
+∆t = 1.242424242422184
+R  = 16.47578143641136
+∆R = 0.4347941355808168
+Abweichung vom theoretischen Wert: 9.969732987821397 * Unsicherheit
+lambda  = 0.8617182449650945
+∆lambda = 0.02274065366063905
+Abweichung vom theoretischen Wert: 9.969732987821397 * Unsicherheit
+
+--- Teilversuch 2 ---
+Fresnelbiprisma 1:
+a  = 2.8723404255319145
+∆a = 0.15975721671049153
+lambda  = 0.6221226825930072
+∆lambda = 0.040414713181489814
+Abweichung vom theoretischen Wert: 0.319 * Unsicherheit
+
+Fresnelbiprisma 2:
+a  = 1.983471074380165
+∆a = 0.16537954736585853
+lambda  = 0.6347107438016528
+∆lambda = 0.06176127821171554
+Abweichung vom theoretischen Wert: 0.005 * Unsicherheit
+
+Fresnelbiprisma 3:
+a  = 1.4876033057851237
+∆a = 0.165340051047199
+lambda  = 0.6865861411315956
+∆lambda = 0.08902926190048882
+Abweichung vom theoretischen Wert: 0.579 * Unsicherheit
+
+Fresnelbiprisma:
+a  = 2.8506787330316743
+∆a = 0.13589973205965292
+lambda  = 0.7045671609074826
+∆lambda = 0.04391320007127817
+Abweichung vom theoretischen Wert: 1.584 * Unsicherheit
+

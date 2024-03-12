@@ -1,0 +1,11 @@
+--- Teilversuch 3 ---
+f = 0.0017463157894736846
+Theoretisch:
+gamma = 143.15852923447858
+Durchmesser Haar (um):
+G  = 174.63157894736847
+∆G = 20.955789473684217
+Experimentell:
+gamma  = 333.33333333333337
+∆gamma = 225.79352526009848
+Abweichung vom theoretischen Wert: 0.8422509187532575 * Unsicherheit
